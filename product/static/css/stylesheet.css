@@ -1,0 +1,53 @@
+body{
+    background-color : #bfc192;
+    background-image: url("../img/bodybg.jpg");
+}
+
+.table{
+    font-size : 13px;
+    text-align : center;
+    width : 95%;
+    margin : auto;
+    
+}
+
+.table tr:nth-child(odd){
+    background: #87c6e5;
+}
+
+.table tr:nth-child(even){
+    background: #bbe8ff;
+}
+
+th{
+    background-color : #fefefc;
+    color : rgb(17, 17, 17);
+}
+
+.header{
+    font-family: helvetica;
+    color : rgb(17, 17, 17);
+    font-size: 40px;
+    text-align: center;
+    width : 100%;
+    display: block;
+    font-weight: bolder;
+}
+
+.success{
+    list-style: none;
+    background-color: rgb(17, 17, 17);
+    color:white;
+    text-align : center;
+}
+
+button{
+    width: 100%;
+}
+
+.error{
+    list-style: none;
+    background-color: rgb(17, 17, 17);
+    color:white;
+    text-align : center;
+}
